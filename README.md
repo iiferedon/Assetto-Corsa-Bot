@@ -2,7 +2,7 @@
 <h3 align="center">Logs join and leave requests in a server via JSON dumping.</h3>
 
   <p align="center">
-    <img src="images/example_discord.PNG" alt="Logo" >
+    <img src="images/example_discord_bot.PNG" alt="Logo" >
     <br />
     <a href="https://iiferedon.xyz"><strong>My Website »</strong></a>
     <br />
