@@ -39,6 +39,9 @@
 ## About The Project
 
 Monitor any Assetto Corsa server to check if a player has joined or left the server externally.
+<p align="center">
+    <img src="images/usersinsession.PNG" alt="Logo" >
+  </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
