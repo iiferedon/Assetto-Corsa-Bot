@@ -40,8 +40,6 @@
 
 Monitor any Assetto Corsa server to check if a player has joined or left the server externally.
 
-I haven't seen anyone do this yet publicly so here is my code. :D
-
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -58,24 +56,28 @@ I haven't seen anyone do this yet publicly so here is my code. :D
 ## Getting Started
 
 ```sh
-git clone https://github.com/iiferedon/Assetto-Corsa-Server-Listener-Discord-Webhook-.git
-cd /Assetto-Corsa-Server-Listener-Discord-Webhook-/
+git clone https://github.com/iiferedon/Assetto-Corsa-Bot.git
+cd Assetto-Corsa-Bot/
+sudo apt-get update
+sudo apt install python3-pip
 pip install -r requirements.txt
 
 ```
 
 ### Installation
 
-_Below is an example of how you can install this webhook!_
-
-1. Create a discord webhook
+1. Create bot
   ```sh
-  Choose a channel to display messages > edit channel > integrations > webhooks > create webhook > name it anything > copy the webhook URL.
+  Fairly obvious just look this up, make sure PRESENCE INTENT, SERVER MEMBERS INTENT, MESSAGE CONTENT INTENT are all checked in the bot section. 
+  Create the URL as admin because why not.
   ```
-2. Edit ACbot.py
+2. edit these
    ```py
-    webhook = DiscordWebhook(url="WEBHOOK_URL")
-    server_address = "SERVER_IP:SERVER_PORT"
+    TOKEN = 'BOT_TOKEN' #Bot Token
+    GUILD_ID = 1337  # Replace with your Discord server ID
+    CHANNEL_ID = 1337 # Replace with your target channel ID
+    server_address = "1.3.3.7" #Server Address
+    server_port = "1337" #Server Port
    ```
    
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -86,9 +88,8 @@ _Below is an example of how you can install this webhook!_
 ## Usage
 ```sh
 #Start Script
-python3 ACbot.py
+python3 bot.py
 ```
-Ensure script is started before anyone is in the server.
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -96,9 +97,7 @@ Ensure script is started before anyone is in the server.
 
 <!-- CONTACT -->
 ## Contact
+Discord - iiferedon#7619 or iiferedon#1337
 
-Discord - iiferedon#7337 or iiferedon#1337
-
-Project Link: [https://github.com/iiferedon/Assetto-Corsa-Server-Listener-Discord-Webhook-/](https://github.com/iiferedon/Assetto-Corsa-Server-Listener-Discord-Webhook-/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
