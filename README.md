@@ -90,6 +90,12 @@ pip install -r requirements.txt
 #Start Script
 python3 bot.py
 ```
+
+<p align="center">
+    <img src="images/ubuntu_server_example.PNG" alt="Logo" >
+  </p>
+
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
