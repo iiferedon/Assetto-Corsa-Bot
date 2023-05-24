@@ -39,6 +39,10 @@
 ## About The Project
 
 Monitor any Assetto Corsa server to check if a player has joined or left the server externally.
+Tested on:
+- Windows 10
+- Ubuntu
+You can either run it from your desktop with python or run it in a linux vps
 <p align="center">
     <img src="images/usersinsession.PNG" alt="Logo" >
   </p>
