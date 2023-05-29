@@ -44,7 +44,7 @@ Tested on:
 - Ubuntu
 - You can either run it from your desktop with python or run it in a linux vps
 <p align="center">
-    <img src="images/usersinsession.PNG" alt="Logo" >
+    <img src="images/usersinsession2.PNG" alt="Logo" >
     <img src="images/embed_connected_example.PNG" alt="Logo" >
   
   </p>
