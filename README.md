@@ -128,7 +128,7 @@ python3 bot.py
 ## Commands
 ```sh
 !embedmessage <creates a message to show the live server status with all players connected, also saves the message ID>
-!deleteembed <deletes the message and the saved message ID. Use this to get rid of the embed don't delete it manually>
+!deleteembed <deletes the message and the saved message ID. Use this to get rid of the embed dont delete it manually>
 !pingserver <latency between the game server and the bots host>
 !ping <latency in discord API to bot host>
 ```
