@@ -34,7 +34,15 @@
 </details>
 
 
+<!-- GETTING STARTED -->
+## Update
 
+```sh
+- Added commands
+- Added Live Server Status Embed (due to discord embed char limits, can only display upto 25 users at once)
+- Small improvements ig
+- Config file
+```
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -121,7 +129,8 @@ python3 bot.py
 ```sh
 !embedmessage <creates a message to show the live server status with all players connected, also saves the message ID>
 !deleteembed <deletes the message and the saved message ID. Use this to get rid of the embed don't delete it manually>
-
+!pingserver <latency between the game server and the bots host>
+!ping <latency in discord API to bot host>
 ```
 <p align="center">
     <img src="images/ubuntu_server_example.PNG" alt="Logo" >
