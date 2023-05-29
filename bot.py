@@ -218,6 +218,12 @@ async def before_my_loop():
 async def on_ready():
     print(f'Logged in as {bot.user.name} ({bot.user.id})')
     main_loop.start()
+    if EMBED_ID == 0:
+        pass
+    else:
+        print(f'Previous embed message found: {EMBED_ID} (starting the update loop..)')
+        await asyncio.sleep(15)
+        update_embed.start()
 
 @bot.command()
 async def ping(ctx):
