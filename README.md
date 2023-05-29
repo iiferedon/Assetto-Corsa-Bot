@@ -4,7 +4,6 @@
   <p align="center">
     <img src="images/example_discord_bot.png" alt="Logo" >
     <br />
-    <a href="https://iiferedon.xyz"><strong>My Website »</strong></a>
   <img src="images/usersinsession2.PNG" alt="Logo" >
     <br />
     <br />
@@ -80,13 +79,31 @@ pip install -r requirements.txt
   Fairly obvious just look this up, make sure PRESENCE INTENT, SERVER MEMBERS INTENT, MESSAGE CONTENT INTENT are all checked in the bot section. 
   Create the URL as admin because why not.
   ```
-2. edit these
+2. edit these in cfg file
    ```py
-    TOKEN = 'BOT_TOKEN' #Bot Token
-    GUILD_ID = 1337  # Replace with your Discord server ID
-    CHANNEL_ID = 1337 # Replace with your target channel ID
-    server_address = "1.3.3.7" #Server Address
-    server_port = "1337" #Server Port
+    [Discord]
+    ;Discord Bot Token
+    token =  
+
+    ;Discord Server ID
+    guild_id = 0000000000000000 
+
+    ;Channel ID to send the connect and disconnect notifications to
+    channel_id_leave_join = 00000000000000000 
+
+    ;Channel to write the embed for current players on the server
+    channel_for_embed_player_info = 000000000000000 
+
+    [Server]
+    ;Assetto Corsa Server IP
+    address = 00.00.00.00
+
+    ;Assetto Corsa Server Port
+    port = 0000 
+
+    [Other]
+    ;Leave at 0, controls current embeded message id
+    embed_id = 0 
    ```
    
 <p align="right">(<a href="#top">back to top</a>)</p>
@@ -100,6 +117,12 @@ pip install -r requirements.txt
 python3 bot.py
 ```
 
+## Commands
+```sh
+!embedmessage <creates a message to show the live server status with all players connected, also saves the message ID>
+!deleteembed <deletes the message and the saved message ID. Use this to get rid of the embed don't delete it manually>
+
+```
 <p align="center">
     <img src="images/ubuntu_server_example.PNG" alt="Logo" >
   </p>
