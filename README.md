@@ -42,9 +42,11 @@ Monitor any Assetto Corsa server to check if a player has joined or left the ser
 Tested on:
 - Windows 10
 - Ubuntu
-You can either run it from your desktop with python or run it in a linux vps
+- You can either run it from your desktop with python or run it in a linux vps
 <p align="center">
     <img src="images/usersinsession.PNG" alt="Logo" >
+    <img src="images/embed_connected_example.PNG" alt="Logo" >
+  
   </p>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
